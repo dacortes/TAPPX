@@ -6,7 +6,7 @@
 #    By: dacortes <dacortes@student.42barcelona.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/22 20:56:29 by dacortes          #+#    #+#              #
-#    Updated: 2023/03/22 21:14:47 by dacortes         ###   ########.fr        #
+#    Updated: 2023/03/23 09:50:29 by dacortes         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -118,5 +118,5 @@ if __name__ == "__main__":
           f" {df_video.shape[0]}")
 ###............................... Score ....................................###
     analyze(df_video)
-    with open('data1.json', 'w') as file:
+    with open('data.json', 'w') as file:
         json.dump(dic_outut, file, indent=2)
